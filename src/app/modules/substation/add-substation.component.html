@@ -1,0 +1,8 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <app-input-text
+    label="Substation Name"
+    controlName="substationName"
+    placeholder="Enter substation name"
+    [form]="form"
+  ></app-input-text>
+</form>
